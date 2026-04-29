@@ -1,0 +1,46 @@
+Future Updates
+
+1. Device Theme
+2. Subject Cards
+3. PDF Viewer
+4. Search Bar
+5. Mobile Responsive
+6. ASKnoteX
+
+✅ Homepage
+
+1. Responsive design
+2. Navbar
+3. Hero section
+4. Cards hover
+5. Mood section
+6. Footer
+7. Theme toggle
+8. Final polish
+
+🚧 Pages Build
+
+1. Premium Notes Page
+2. Physics Page
+3. Chemistry Page
+4. Maths Page
+5. Biology Page
+6. About Page polish
+7. Contact Page polish
+
+📚 Content
+
+ Physics notes add
+ Chemistry notes add
+ Maths formulas add
+ Biology notes add
+ Downloads section
+ Search feature (future)
+
+🚀 Final Launch
+
+ Mobile testing
+ All links test
+ Speed check
+ Publish website
+ Custom domain (future)

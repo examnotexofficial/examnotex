@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes - ExamNoteX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="brand">
+    <img src="assets/logo/logo.jpg" alt="Logo">
+    <h2>ExamNoteX</h2>
+  </div>
+
+ <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="notes.html" class="active">Notes</a></li>
+  <li><a href="subjects.html">Subjects</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+  <button id="themeToggle">☀️ Light</button>
+</nav>
+
+<section class="notes-hero">
+  <h1>Premium Notes Hub</h1>
+  <p>Organized study materials for MHT-CET & Competitive Exams.</p>
+</section>
+
+<section class="notes-search">
+  <input type="text" id="searchInput" placeholder="Search notes, formulas, chapters...">
+</section>
+
+<p id="noResults" style="display:none; text-align:center; margin-top:20px;">No notes found.</p>
+
+<section class="subjects">
+  <h2>Choose Subject</h2>
+
+  <div class="card-container">
+
+    <a href="physics.html" class="card-link" data-search="physics laws numericals formulas concepts">
+      <div class="card">
+        <span>📘</span>
+        <h3>Physics</h3>
+        <p>Laws, numericals, formulas and concepts.</p>
+      </div>
+    </a>
+
+    <a href="chemistry.html" class="card-link" data-search="chemistry organic inorganic physical">
+      <div class="card">
+        <span>🧪</span>
+        <h3>Chemistry</h3>
+        <p>Organic, inorganic and physical chemistry.</p>
+      </div>
+    </a>
+
+    <a href="maths.html" class="card-link" data-search="maths formulas tricks solved examples">
+      <div class="card">
+        <span>📐</span>
+        <h3>Maths</h3>
+        <p>Short tricks, formulas and solved examples.</p>
+      </div>
+    </a>
+
+    <a href="biology.html" class="card-link" data-search="biology botany zoology notes smart">
+      <div class="card">
+        <span>🧬</span>
+        <h3>Biology</h3>
+        <p>Botany and zoology smart notes.</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section class="mood-box">
+  <h2>More Notes Coming Soon</h2>
+  <p>Daily updates, PDFs, chapter-wise notes and revision packs.</p>
+  <button>Stay Updated</button>
+</section>
+
+<footer>
+  <h3>ExamNoteX</h3>
+  <p>Free Notes for Competitive Exams</p>
+  <p>© 2026 ExamNoteX</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
