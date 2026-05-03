@@ -215,8 +215,11 @@ button:hover{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
-  max-width: 1200px;
-  margin: auto;
+
+  width: 100%;            /* IMPORTANT */
+  max-width: 1200px;      /* limit */
+  margin: 40px auto;      /* CENTER */
+  padding: 0 20px;        /* side spacing */
 }
 
 .card{
