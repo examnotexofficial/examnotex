@@ -733,9 +733,9 @@ nav a:hover{
 }
 
 .chapter-list a {
-  display: block;
-  width: 100%;
-  word-wrap: break-word;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
 }
 
 .chapter-list a:hover {
