@@ -7,6 +7,7 @@ body{
   background:#0f172a;
   color:white;
   animation:fadeIn 0.6s ease;
+  overflow-x: hidden;
 }
 @keyframes fadeIn{
   from{
@@ -216,10 +217,11 @@ button:hover{
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
 
-  width: 100%;            /* IMPORTANT */
-  max-width: 1200px;      /* limit */
-  margin: 40px auto;      /* CENTER */
-  padding: 0 20px;        /* side spacing */
+  max-width: 1200px;
+  width: 100%;
+
+  margin: 40px auto;   /* 🔥 CENTER FIX */
+  padding: 0 20px;
 }
 
 .card{
@@ -402,6 +404,7 @@ section{
 
 .subjects{
   padding-top:70px;
+  text-align: center;
 }
 
 .card h3{
