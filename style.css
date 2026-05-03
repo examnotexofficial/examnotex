@@ -744,3 +744,8 @@ nav a:hover{
 .chapter-list a:hover {
   text-decoration: underline;
 }
+
+.cards-container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
