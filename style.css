@@ -747,34 +747,26 @@ nav a:hover{
   text-decoration: underline;
 }
 
-.cards-container {
-  display: grid !important;
-  grid-template-columns: repeat(4, 1fr) !important;
-  gap: 25px !important;
-  
-grid-template-columns: repeat(4, minmax(0,1fr));
- gap: 24px;
-  
+/* ===== FINAL GRID ===== */
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: 25px;
+
   max-width: 1200px;
   margin: 40px auto;
   padding: 0 20px;
 }
+
+/* ===== CARD ===== */
 .card{
   width: 100%;
-  min-height: 260px;
-
-  padding: 22px;
-  border-radius: 16px;
-
-  background: #1e293b;
-  color: white;
+  min-height: 280px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
 /* hover simple (safe) */
