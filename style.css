@@ -742,20 +742,3 @@ nav a:hover{
 .chapter-list a:hover {
   text-decoration: underline;
 }
-
-.cards-container {
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* ==== FINAL GRID (must be at bottom of style.css) ==== */
-.cards-container {
-  display: grid !important;
-  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-  gap: 25px;
-
-  max-width: 1200px;
-  width: 100%;
-  margin: 40px auto;
-  padding: 0 20px;
-}
