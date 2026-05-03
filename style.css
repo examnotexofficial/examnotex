@@ -742,3 +742,17 @@ nav a:hover{
 .chapter-list a:hover {
   text-decoration: underline;
 }
+
+.cards-container {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 25px !important;
+
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  width: 100% !important;
+}
