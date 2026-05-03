@@ -696,3 +696,22 @@ nav a:hover{
 .contact-cta a:hover{
   transform:translateY(-3px);
 }
+
+.chapter-list {
+  list-style: none;
+  padding: 0;
+}
+
+.chapter-list li {
+  margin: 6px 0;
+}
+
+.chapter-list a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.chapter-list a:hover {
+  text-decoration: underline;
+}
