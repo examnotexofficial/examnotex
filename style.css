@@ -213,13 +213,12 @@ button:hover{
 }
 
 .cards-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: grid;                         /* 🔥 main */
+  grid-template-columns: repeat(4, 1fr); /* 4 cards row */
   gap: 25px;
 
   max-width: 1200px;
   width: 100%;
-
   margin: 40px auto;
   padding: 0 20px;
 }
@@ -232,7 +231,7 @@ button:hover{
   cursor:pointer;
 
   min-height:300px;           /* same height for all cards */
-  width:250px;                /* same width */
+  width:100px;                /* same width */
 
   display:flex;
   flex-direction:column;
