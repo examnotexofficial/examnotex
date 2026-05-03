@@ -751,28 +751,14 @@ nav a:hover{
   display: grid !important;
   grid-template-columns: repeat(4, 1fr) !important;
   gap: 25px !important;
-
+  
+grid-template-columns: repeat(4, minmax(0,1fr));
+ gap: 24px;
+  
   max-width: 1200px;
   margin: 40px auto;
   padding: 0 20px;
 }
-
-.card {
-  width: 100% !important;
-}
-
-/* ===== CLEAN GRID (BASE) ===== */
-.cards-container{
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0,1fr));
-  gap: 24px;
-
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-/* ===== CARD (SAFE) ===== */
 .card{
   width: 100%;
   min-height: 260px;
