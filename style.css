@@ -720,22 +720,18 @@ nav a:hover{
   padding: 0;
   margin-top: 10px;
 
-  display: flex;              /* 🔥 */
-  flex-direction: column;     /* 🔥 vertical */
-  align-items: center;        /* center */
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .chapter-list li {
-  width: 100%;
   text-align: center;
-  margin: 6px 0;
 }
 
 .chapter-list a {
   text-decoration: none;
   color: #2563eb;
-  font-weight: 500;
 }
 
 .chapter-list a:hover {
