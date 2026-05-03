@@ -231,7 +231,7 @@ button:hover{
   cursor:pointer;
 
   min-height:300px;           /* same height for all cards */
-  width:100px;                /* same width */
+  width:100%;                /* same width */
 
   display:flex;
   flex-direction:column;
@@ -535,7 +535,7 @@ nav a:hover{
     font-size:16px;
   }
 
-  .card-container{
+  .cards-container{
     grid-template-columns: repeat(2, 1fr);
     gap:18px;
   }
