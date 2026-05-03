@@ -211,12 +211,12 @@ button:hover{
   letter-spacing:0.5px;
 }
 
-.card-container{
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
-  gap:25px;
-  max-width:1100px;
-  margin:auto;
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .card{
@@ -532,7 +532,7 @@ nav a:hover{
   }
 
   .card-container{
-    grid-template-columns:1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap:18px;
   }
 
@@ -631,7 +631,10 @@ footer p{
   .mood-box h2{
     font-size:24px;
   }
-
+  
+.cards-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 body,
