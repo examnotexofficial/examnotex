@@ -7,7 +7,6 @@ body{
   background:#0f172a;
   color:white;
   animation:fadeIn 0.6s ease;
-  overflow-x: hidden;
 }
 @keyframes fadeIn{
   from{
@@ -212,39 +211,24 @@ button:hover{
   letter-spacing:0.5px;
 }
 
-.cards-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 28px;
-
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 0 20px;
+.card-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+  gap:25px;
+  max-width:1100px;
+  margin:auto;
 }
 
 .card{
-  border: 1px solid rgba(255, 255, 255, 0.06); /* खूप हलका */
-  border-radius: 16px;
-
-  padding: 24px;
-  background: #1e293b;
-
-  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  background:#1e293b;
+  padding:30px 20px;
+  border-radius:18px;
   transition:0.35s ease;
-  cursor:pointer;
-
-  min-height:300px;           /* same height for all cards */
-  width:100%;
-  position: relative;/* same width */
-
-  display:flex;
-  flex-direction:column;
-
-  justify-content:flex-start; /* content top ला सुरू */
-  align-items:center;         /* center align */
-
-  overflow:hidden;
-   transition: transform 0.3s ease, box-shadow 0.3s ease; /* 🔥 */
+  cursor: pointer;
+min-height:220px;
+display:flex;
+flex-direction:column;
+justify-content:center;
 }
 
 .page-subtitle{
@@ -258,6 +242,7 @@ button:hover{
 .card-link{
   text-decoration:none;
   color:inherit;
+  display:block;
 }
 
 .card span{
@@ -266,34 +251,26 @@ button:hover{
   margin-bottom:12px;
 }
 
-.card h2,
 .card h3{
-  font-size:28px;
-  margin-bottom:10px;
-  text-align:center;
+  font-size:30px;
+  margin-bottom:12px;
 }
 
 .card p{
-  font-size:16px;
-  line-height:1.6;
-  margin-bottom:12px;
-  opacity:0.9;
-  text-align:center;
+  font-size:17px;
+  line-height:1.7;
+  opacity:0.95;
 }
 
 .card:hover{
-  transform:translateY(-5px);
-  box-shadow:0 12px 25px rgba(255,165,0,0.3);
+  transform:translateY(-10px) scale(1.02);
+  box-shadow:0 18px 35px rgba(0, 0, 0, 0.28);
 }
 
 .light-mode .card{
   background:#ffffff;
-  border:1px solid #e2e8f0;
+  border:1px solid #e5e7eb;
   box-shadow:0 8px 18px rgba(0,0,0,0.06)
-}
-
-.light-mode .card:hover {
-  border: 1px solid #2563eb;
 }
 
 footer{
@@ -410,7 +387,6 @@ section{
 
 .subjects{
   padding-top:70px;
-  text-align: center;
 }
 
 .card h3{
@@ -543,8 +519,8 @@ nav a:hover{
     font-size:16px;
   }
 
-  .cards-container{
-    grid-template-columns: repeat(2, 1fr);
+  .card-container{
+    grid-template-columns:1fr;
     gap:18px;
   }
 
@@ -643,10 +619,7 @@ footer p{
   .mood-box h2{
     font-size:24px;
   }
-  
-.cards-container {
-    grid-template-columns: 1fr;
-  }
+
 }
 
 body,
@@ -727,62 +700,18 @@ nav a:hover{
 .chapter-list {
   list-style: none;
   padding: 0;
-  margin-top: 10px;
-
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
 }
 
 .chapter-list li {
-  text-align: center;
+  margin: 6px 0;
 }
 
 .chapter-list a {
   text-decoration: none;
   color: #2563eb;
+  font-weight: 500;
 }
 
 .chapter-list a:hover {
   text-decoration: underline;
-}
-
-/* ===== FINAL GRID ===== */
-.cards-container{
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0,1fr));
-  gap: 25px;
-
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-/* ===== CARD ===== */
-.card{
-  width: 100%;
-  min-height: 280px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/* hover simple (safe) */
-.card:hover{
-  transform: translateY(-6px);
-}
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 1024px){
-  .cards-container{
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px){
-  .cards-container{
-    grid-template-columns: 1fr;
-  }
 }
