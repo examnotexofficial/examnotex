@@ -229,6 +229,7 @@ min-height:220px;
 display:flex;
 flex-direction:column;
 justify-content:center;
+  overflow: hidden;
 }
 
 .page-subtitle{
@@ -702,21 +703,22 @@ nav a:hover{
   padding: 0;
   margin-top: 10px;
 
-  display: block !important;   /* 🔥 force block */
+  display: flex;              /* 🔥 */
+  flex-direction: column;     /* 🔥 vertical */
+  align-items: center;        /* center */
+  width: 100%;
 }
 
 .chapter-list li {
-  display: block !important;   /* 🔥 force vertical */
-  margin: 8px 0;
+  width: 100%;
   text-align: center;
+  margin: 6px 0;
 }
 
 .chapter-list a {
-  display: block;        /* 🔥 important */
+  display: block;
   width: 100%;
-  text-decoration: none;
-  color: #2563eb;
-  font-weight: 500;
+  word-wrap: break-word;
 }
 
 .chapter-list a:hover {
