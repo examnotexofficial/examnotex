@@ -213,19 +213,18 @@ button:hover{
 }
 
 .cards-container {
-  display: grid;                         /* 🔥 main */
-  grid-template-columns: repeat(4, 1fr); /* 4 cards row */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 25px;
 
   max-width: 1200px;
-  width: 100%;
   margin: 40px auto;
   padding: 0 20px;
 }
 
 .card{
   background:#1e293b;
-  padding:30px 20px;
+  padding:25px;
   border-radius:18px;
   transition:0.35s ease;
   cursor:pointer;
