@@ -211,7 +211,7 @@ button:hover{
   letter-spacing:0.5px;
 }
 
-.card-container{
+.cards-container{
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
   gap:25px;
@@ -519,7 +519,7 @@ nav a:hover{
     font-size:16px;
   }
 
-  .card-container{
+  .cards-container{
     grid-template-columns:1fr;
     gap:18px;
   }
