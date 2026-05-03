@@ -700,17 +700,22 @@ nav a:hover{
 .chapter-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .chapter-list li {
-  margin: 6px 0;
+  display: block;        /* 🔥 force vertical */
+  width: 100%;           /* full width घेईल */
+  margin: 10px 0;
+  text-align: center;
 }
 
 .chapter-list a {
+  display: block;        /* 🔥 important */
+  width: 100%;
   text-decoration: none;
   color: #2563eb;
   font-weight: 500;
-  display: inline-block;
 }
 
 .chapter-list a:hover {
