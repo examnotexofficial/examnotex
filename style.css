@@ -710,6 +710,7 @@ nav a:hover{
   text-decoration: none;
   color: #2563eb;
   font-weight: 500;
+  display: inline-block;
 }
 
 .chapter-list a:hover {
