@@ -264,12 +264,17 @@ justify-content:flex-start;
 .card h3{
   font-size:30px;
   margin-bottom:12px;
+  min-height: 70px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .card p{
   font-size:17px;
   line-height:1.7;
   opacity:0.95;
+  min-height: 20px;
 }
 
 .card:hover{
@@ -737,6 +742,8 @@ align--items: center;
 
   border-radius: 6px;
   transition: all 0.25s ease;
+
+  min-height: 150px;
 }
 
 /* hover effect */
