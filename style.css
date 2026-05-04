@@ -715,3 +715,29 @@ nav a:hover{
 .chapter-list a:hover {
   text-decoration: underline;
 }
+
+.chapter-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+
+  display: flex;
+  flex-direction: column;   /* 👈 vertical */
+  gap: 8px;                 /* spacing */
+}
+
+.chapter-list li {
+  text-align: center;
+}
+
+.chapter-list a {
+  text-decoration: none;
+  color: #3b82f6;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.chapter-list a:hover {
+  color: #60a5fa;
+  text-decoration: underline;
+}
