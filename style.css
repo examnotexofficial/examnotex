@@ -213,11 +213,12 @@ button:hover{
 
 .cards-container{
   display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns:repeat(auto-fit,minmax(260px, 1fr));
   gap:25px;
-  max-width:1100px;
-  margin:auto;
+  max-width:1200px;
+  margin: 40px auto;
   align-items: stretch;
+  padding: 0 20px;
 }
 
 .card{
@@ -227,14 +228,17 @@ button:hover{
   transition:0.35s ease;
   cursor: pointer;
   height: 100%;
-min-height:340px;
+min-height:320px;
 display:flex;
 flex-direction:column;
 justify-content:flex-start;
   gap: 10px;
 
-  border: 1px solid rgba(255,255,255,0.06)
+  align-items:center;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
   overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .page-subtitle{
@@ -269,7 +273,7 @@ justify-content:flex-start;
 }
 
 .card:hover{
-  transform:translateY(-10px) scale(1.02);
+  transform:translateY(-6px) scale(1.01);
   box-shadow:0 18px 35px rgba(0, 0, 0, 0.28);
 }
 
@@ -707,12 +711,12 @@ nav a:hover{
 .chapter-list {
   list-style: none;
   padding: 0;
-  margin-top: 15px;
+  margin-top: 10px;
 
   display: flex;
   flex-direction: column;
-  gap: 10px;              /* spacing between chapters */
-
+  gap: 8px;              /* spacing between chapters */
+align--items: center;
   width: 100%;
 }
 
