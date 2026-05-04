@@ -697,47 +697,61 @@ nav a:hover{
   transform:translateY(-3px);
 }
 
-.chapter-list {
-  list-style: none;
-  padding: 0;
-}
-
-.chapter-list li {
-  margin: 6px 0;
-}
-
-.chapter-list a {
-  text-decoration: none;
-  color: #2563eb;
-  font-weight: 500;
-}
-
-.chapter-list a:hover {
-  text-decoration: underline;
-}
-
+/* ===== CHAPTER LIST FIX ===== */
 .chapter-list {
   list-style: none;
   padding: 0;
   margin-top: 12px;
 
   display: flex;
-  flex-direction: column;   /* 👈 vertical */
-  gap: 8px;                 /* spacing */
+  flex-direction: column;
+  gap: 10px;              /* spacing between chapters */
+
+  width: 100%;
 }
 
 .chapter-list li {
+  width: 100%;
   text-align: center;
 }
 
+/* links styling */
 .chapter-list a {
-  text-decoration: none;
+  display: block;
+  padding: 6px 8px;
+
   color: #3b82f6;
+  text-decoration: none;
   font-size: 15px;
-  transition: 0.2s ease;
+
+  border-radius: 6px;
+  transition: 0.25s ease;
 }
 
+/* hover effect */
 .chapter-list a:hover {
-  color: #60a5fa;
-  text-decoration: underline;
+  background: rgba(59,130,246,0.12);
+  transform: scale(1.05);
+}
+
+/* ===== CARD ALIGNMENT FIX ===== */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  gap: 10px;             /* spacing inside card */
+}
+
+/* headings spacing */
+.card h3 {
+  margin-bottom: 6px;
+}
+
+/* subtitle */
+.card p {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 6px;
 }
