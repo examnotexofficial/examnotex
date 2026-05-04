@@ -264,10 +264,11 @@ justify-content:flex-start;
 .card h3{
   font-size:30px;
   margin-bottom:12px;
-  min-height: 70px;
+  min-height: 60px;
   display:flex;
   align-items:center;
   justify-content:center;
+  
 }
 
 .card p{
@@ -723,6 +724,8 @@ nav a:hover{
   gap: 8px;              /* spacing between chapters */
 align--items: center;
   width: 100%;
+
+  min-height: 140px;
 }
 
 .chapter-list li {
