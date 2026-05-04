@@ -413,6 +413,13 @@ section{
 .subjects{
   padding-top:70px;
 }
+.card h3{
+  margin:14px 0 10px;
+}
+
+.card p{
+  line-height:1.7;
+}
 
 button{
   font-weight:700;
