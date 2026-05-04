@@ -213,11 +213,11 @@ button:hover{
 
 .cards-container{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px, 1fr));
-  gap:25px;
+  grid-template-columns: repeat(4, 1fr);
+  gap:15px;
   max-width:1200px;
   margin: 40px auto;
-  align-items: stretch;
+  align-items: start;
   padding: 0 20px;
 }
 
@@ -227,8 +227,8 @@ button:hover{
   border-radius:18px;
   transition:0.35s ease;
   cursor: pointer;
-  height: 100%;
-min-height:320px;
+  height: auto;
+min-height:auto;
 display:flex;
 flex-direction:column;
 justify-content:flex-start;
