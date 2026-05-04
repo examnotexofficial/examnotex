@@ -725,6 +725,8 @@ nav a:hover{
 align--items: center;
   width: 100%;
 
+  justify-content: flex-start;
+  
   min-height: 140px;
 }
 
@@ -745,8 +747,6 @@ align--items: center;
 
   border-radius: 6px;
   transition: all 0.25s ease;
-
-  min-height: 150px;
 }
 
 /* hover effect */
