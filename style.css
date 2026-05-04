@@ -263,12 +263,12 @@ justify-content:flex-start;
 
 .card h3{
   font-size:30px;
-  margin-bottom:12px;
+  margin-bottom:10px;
   min-height: 60px;
   display:flex;
   align-items:center;
   justify-content:center;
-  
+  text-align:center;
 }
 
 .card p{
@@ -276,6 +276,8 @@ justify-content:flex-start;
   line-height:1.7;
   opacity:0.95;
   min-height: 20px;
+  text-align:center;
+  margin-bottom:12px;
 }
 
 .card:hover{
