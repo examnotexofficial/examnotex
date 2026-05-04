@@ -232,13 +232,20 @@ min-height:320px;
 display:flex;
 flex-direction:column;
 justify-content:flex-start;
-  gap: 0px;
+  gap: 8px;
 
-  align-items:center;
+  align-items:flex-start;
   border: 1px solid rgba(255,255,255,0.08);
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card h2,
+.card h3,
+.card p,
+.chapter-list{
+  width:100%;
+  text-align:center;
 }
 
 .page-subtitle{
@@ -725,7 +732,7 @@ align--items: center;
 .chapter-list li {
   width: 100%;
   text-align: center;
-  margin: 0;
+  margin:6px 0;
 }
 
 /* links styling */
