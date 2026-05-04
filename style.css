@@ -730,7 +730,7 @@ nav a:hover{
   margin:0;
   margin-top: 10px;
 
-  display: block;
+  display: block !important;
   flex-direction: column;
   gap: 10px;              /* spacing between chapters */
 align-items: center;
@@ -742,6 +742,7 @@ align-items: center;
   width: 100%;
   text-align: center;
   margin:6px 0;
+  display:block;
 }
 
 /* links styling */
