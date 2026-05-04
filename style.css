@@ -32,7 +32,7 @@ nav h2{
   color:orange;
 }
 
-nav ul{
+ul{
   display:flex;
   gap:12px;
   list-style:none;
@@ -214,7 +214,7 @@ button:hover{
 .cards-container{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(260px, 1fr));
-  gap:15px;
+  gap:25px;
   max-width:1200px;
   margin: 40px auto;
   align-items: stretch;
@@ -232,20 +232,13 @@ min-height:320px;
 display:flex;
 flex-direction:column;
 justify-content:flex-start;
-  gap: 8px;
+  gap: 10px;
 
   align-items:center;
   border: 1px solid rgba(255,255,255,0.08);
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card h2,
-.card h3,
-.card p,
-.chapter-list{
-  width:100%;
-  text-align:center;
 }
 
 .page-subtitle{
@@ -270,23 +263,19 @@ justify-content:flex-start;
 
 .card h3{
   font-size:30px;
-  margin: 0 0 8px;
-  margin-bottom:10px;
+  margin-bottom:12px;
   min-height: 60px;
   display:flex;
   align-items:center;
   justify-content:center;
-  text-align:center;
+  
 }
 
 .card p{
-  margin:0 0 12px;
-  font-size:14px;
+  font-size:17px;
   line-height:1.7;
-  opacity:0.7;
+  opacity:0.95;
   min-height: 20px;
-  text-align:center;
-  margin-bottom:12px;
 }
 
 .card:hover{
@@ -415,6 +404,7 @@ section{
 .subjects{
   padding-top:70px;
 }
+
 .card h3{
   margin:14px 0 10px;
 }
@@ -727,22 +717,21 @@ nav a:hover{
 .chapter-list {
   list-style: none;
   padding: 0;
-  margin:0;
   margin-top: 10px;
 
-  display: block !important;
+  display: flex;
   flex-direction: column;
-  gap: 10px;              /* spacing between chapters */
-align-items: center;
+  gap: 8px;              /* spacing between chapters */
+align--items: center;
   width: 100%;
 
+  min-height: 140px;
 }
 
 .chapter-list li {
   width: 100%;
   text-align: center;
-  margin:6px 0;
-  display:block;
+  margin: 6px 0;
 }
 
 /* links styling */
@@ -754,9 +743,10 @@ align-items: center;
   text-decoration: none;
   font-size: 15px;
 
-  font-weight: 500;
   border-radius: 6px;
   transition: all 0.25s ease;
+
+  min-height: 150px;
 }
 
 /* hover effect */
@@ -764,7 +754,6 @@ align-items: center;
   background: rgba(59,130,246,0.15);
   box-shadow: 0 0 10px rgba(59,130,246,0.25);
   transform: scale(1.05);
-  text-decoration: underline;
 }
 
 /* ===== CARD ALIGNMENT FIX ===== */
