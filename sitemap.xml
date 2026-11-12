@@ -1,8 +1,33 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://examnotexofficial.github.io/examnotex/</loc>
-  </url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/subjects.html</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/notes.html</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/physics.html</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/chemistry.html</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/biology.html</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/maths.html</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/about.html</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/contact.html</loc></url>
+
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-atoms-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-capacitance-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-dual-nature-of-matter-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-electric-charges-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-electric-field-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-electric-potential-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-gravitation-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-laws-of-motion-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-nuclei-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-optical-instruments-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-ray-optics-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-reflection-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-refraction-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-rotational-motion-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-semiconductors-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-wave-optics-mht-cet-notes.pdf</loc></url>
+  <url><loc>https://examnotexofficial.github.io/examnotex/examnotex-work-power-energy-mht-cet-notes.pdf</loc></url>
 
 </urlset>
